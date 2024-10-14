@@ -2,7 +2,7 @@
   "name": "rdm-my-lib",
   "private": true,
   "version": "0.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "tsc": "tsc -w",
     "nodemon": "nodemon",
@@ -15,5 +15,7 @@
     "tsx": "^4.19.1",
     "typescript": "^5.5.3",
     "vite": "^5.4.8"
-  }
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts"
 }

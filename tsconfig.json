@@ -6,23 +6,16 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "esModuleInterop": true,
-
-    //added
     "outDir": "dist",
-
-    /* Bundler mode */
     "moduleResolution": "Node",
-    "allowImportingTsExtensions": true,
     "isolatedModules": true,
-    "moduleDetection": "force",
-    "noEmit": true,
-
-    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true, // Добавьте этот параметр, чтобы генерировать .d.ts файлы
+    "declarationDir": "dist/types" // Укажите, куда помещать .d.ts файлы
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }

@@ -1,8 +1,7 @@
 Array.prototype.myPush = function (...elements) {
-  for (let element in elements) {
-    this[this.length] = element;
+  for (let el of elements) {
+    this[this.length] = el;
   }
-
   return this.length;
 };
 
