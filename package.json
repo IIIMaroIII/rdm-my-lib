@@ -1,7 +1,7 @@
 {
   "name": "rdm-my-lib",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "tsc": "tsc -w",
@@ -16,6 +16,6 @@
     "typescript": "^5.5.3",
     "vite": "^5.4.8"
   },
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts"
+  "main": "dist/index.js",
+  "types": "/dist/types/index.d.ts"
 }

@@ -5,4 +5,3 @@ const RDM = {
 };
 
 export default RDM;
-export {};

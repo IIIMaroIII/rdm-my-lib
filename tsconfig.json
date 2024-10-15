@@ -7,15 +7,15 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "outDir": "dist",
+    "declarationDir": "dist/types",
     "moduleResolution": "Node",
     "isolatedModules": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "declaration": true, // Добавьте этот параметр, чтобы генерировать .d.ts файлы
-    "declarationDir": "dist/types" // Укажите, куда помещать .d.ts файлы
+    "declaration": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts"],
   "exclude": ["node_modules", "dist"]
 }

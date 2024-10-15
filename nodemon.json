@@ -1,5 +1,5 @@
 {
-  "exec": "tsx src/lib/components/test.ts",
+  "exec": "tsx src/lib/Array.ts",
   "watch": ["src/**/*.ts", "src/**/*.json"],
   "ext": "ts,json"
 }
