@@ -4,7 +4,3 @@ Array.prototype.myPush = function (...elements) {
   }
   return this.length;
 };
-
-export const MyArray = {
-  myPush: Array.prototype.myPush,
-};

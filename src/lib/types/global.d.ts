@@ -1,7 +1,7 @@
-import { CustomArrayMethods } from './CustomArraytMethods';
-
 declare global {
-  interface Array<T> extends CustomArrayMethods<T> {}
+  interface Array<T> extends CustomArrayMethods<T> {
+    myPush(...elements: T[]): number;
+  }
 }
 
 export {};

@@ -1,7 +1,7 @@
-import { MyArray } from './lib/Array';
+import './lib/Array';
 
 const RDM = {
-  MyArray,
+  myPush: Array.prototype.myPush,
 };
 
 export default RDM;

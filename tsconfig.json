@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
+    //added
+    "allowJs": true,
+    "exactOptionalPropertyTypes": true,
+    //added
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "rootDir": "./src",
     "outDir": "dist",
     "declarationDir": "dist/types",
     "moduleResolution": "Node",
@@ -16,6 +21,6 @@
     "noFallthroughCasesInSwitch": true,
     "declaration": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }

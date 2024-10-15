@@ -1,10 +1,12 @@
 {
   "name": "rdm-my-lib",
-  "private": true,
   "version": "1.0.0",
+  "private": false,
   "type": "module",
   "scripts": {
     "tsc": "tsc -w",
+    "tsc:build": "tsc && npm run create-dist-package",
+    "create-dist-package": "node scripts/createPackage.js",
     "nodemon": "nodemon",
     "dev": "vite",
     "build": "tsc && vite build",
